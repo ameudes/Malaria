@@ -6,8 +6,8 @@
 
 
 ## Setting up de la connexion python R
-import os 
-os.environ['R_HOME'] = "C:\Program Files\R\R-4.4.1"
+#import os 
+#os.environ['R_HOME'] = "C:\Program Files\R\R-4.4.1"
 
 import rpy2.robjects as robjects
 r = robjects.r
